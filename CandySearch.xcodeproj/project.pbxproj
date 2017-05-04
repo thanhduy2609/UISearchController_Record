@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		171E0C7E1B8E5B84001E6242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */; };
-		171E0C801B8E5B84001E6242 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */; };
-		171E0C821B8E5B84001E6242 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0C811B8E5B84001E6242 /* DetailViewController.swift */; };
 		171E0C851B8E5B84001E6242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171E0C831B8E5B84001E6242 /* Main.storyboard */; };
 		171E0C871B8E5B84001E6242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171E0C861B8E5B84001E6242 /* Assets.xcassets */; };
 		171E0C8A1B8E5B84001E6242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171E0C881B8E5B84001E6242 /* LaunchScreen.storyboard */; };
-		171E0CAE1B8E5C58001E6242 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171E0CAD1B8E5C58001E6242 /* Candy.swift */; };
+		3098B6A11EBB7F3200D1F2A8 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B6A01EBB7F3200D1F2A8 /* Candy.swift */; };
+		3098B6A41EBB7F9600D1F2A8 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B6A31EBB7F9600D1F2A8 /* MasterViewController.swift */; };
+		3098B6A61EBB7FBE00D1F2A8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3098B6A51EBB7FBE00D1F2A8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		171E0C7A1B8E5B84001E6242 /* CandySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CandySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		171E0C811B8E5B84001E6242 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		171E0C841B8E5B84001E6242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		171E0C861B8E5B84001E6242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		171E0C891B8E5B84001E6242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		171E0C8B1B8E5B84001E6242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		171E0CAD1B8E5C58001E6242 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		3098B6A01EBB7F3200D1F2A8 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
+		3098B6A31EBB7F9600D1F2A8 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3098B6A51EBB7FBE00D1F2A8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,32 @@
 		171E0C7C1B8E5B84001E6242 /* CandySearch */ = {
 			isa = PBXGroup;
 			children = (
+				3098B6A21EBB7F7600D1F2A8 /* Controllers */,
+				3098B69F1EBB7F2400D1F2A8 /* Model */,
 				171E0C7D1B8E5B84001E6242 /* AppDelegate.swift */,
-				171E0C7F1B8E5B84001E6242 /* MasterViewController.swift */,
-				171E0C811B8E5B84001E6242 /* DetailViewController.swift */,
-				171E0CAD1B8E5C58001E6242 /* Candy.swift */,
 				171E0C831B8E5B84001E6242 /* Main.storyboard */,
 				171E0C861B8E5B84001E6242 /* Assets.xcassets */,
 				171E0C881B8E5B84001E6242 /* LaunchScreen.storyboard */,
 				171E0C8B1B8E5B84001E6242 /* Info.plist */,
 			);
 			path = CandySearch;
+			sourceTree = "<group>";
+		};
+		3098B69F1EBB7F2400D1F2A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3098B6A01EBB7F3200D1F2A8 /* Candy.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3098B6A21EBB7F7600D1F2A8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3098B6A31EBB7F9600D1F2A8 /* MasterViewController.swift */,
+				3098B6A51EBB7FBE00D1F2A8 /* DetailViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				171E0C821B8E5B84001E6242 /* DetailViewController.swift in Sources */,
-				171E0CAE1B8E5C58001E6242 /* Candy.swift in Sources */,
-				171E0C801B8E5B84001E6242 /* MasterViewController.swift in Sources */,
 				171E0C7E1B8E5B84001E6242 /* AppDelegate.swift in Sources */,
+				3098B6A11EBB7F3200D1F2A8 /* Candy.swift in Sources */,
+				3098B6A41EBB7F9600D1F2A8 /* MasterViewController.swift in Sources */,
+				3098B6A61EBB7FBE00D1F2A8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
